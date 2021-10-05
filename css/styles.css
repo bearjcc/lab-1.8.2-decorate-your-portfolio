@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Eraser";
+    src: url("../fonts/EraserRegular.ttf");
+}
+
+body {
+    /* stretch the background image to cover the full page */
+    height: 100vh;
+    margin: 0;
+    padding: 2vmin;
+
+    background-color: black; /* in case the image doesn't work */
+    background-image: url("../images/slate\ 5k.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* change the color of the text to contrast with black */
+    color: white;
+
+    /* Custom font */
+    font-family: "Eraser", Arial, sans-serif;
+
+    /* custom cursor */
+    cursor: url('../images/paperclip-cursor.svg') 32 16, auto;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.profile-pic {
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    transition-duration: 1s;
+
+}
+
+.profile-pic:hover {
+    border-radius: 0;
+    height: 400px;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: hsl(244, 96%, 78%);
+}
