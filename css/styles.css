@@ -3,9 +3,12 @@
     src: url("../fonts/EraserRegular.ttf");
 }
 
+html,
 body {
-    /* stretch the background image to cover the full page */
-    height: 100vh;
+    height: 100%;
+}
+
+body {
     margin: 0;
     padding: 2vmin;
 
